@@ -6,9 +6,9 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Template-NEXT",
+  title: "上田鋁業風光 AI 窗生產規劃",
   description:
-    "A clean Next.js template with TypeScript, TailwindCSS, Shadcn/ui, and Prettier, developed by Thilina Rathnayaka (A.K.A Edward Hyde). Optimized for quick project setup with handy packages.",
+    "使用作業研究方法建立數學模型與設計最佳化演算法，協助鋁門窗生產業者節省規劃生產排程的時間及最佳化生產排程。",
 };
 
 export default function RootLayout({

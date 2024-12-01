@@ -26,7 +26,7 @@ const formSchema = z.object({
   utilization: z.number().min(0, "Utilization must be a non-negative number"),
   early_hyper_parameter: z.number(),
   late_hyper_parameter: z.number(),
-  version: z.literal("string"),
+  version: z.literal("latest"),
 });
 
 type FormValues = z.infer<typeof formSchema>;
@@ -35,10 +35,10 @@ export default function HyperParameterForm() {
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      utilization: 0,
-      early_hyper_parameter: 0,
-      late_hyper_parameter: 0,
-      version: "string",
+      utilization: 100,
+      early_hyper_parameter: 0.1,
+      late_hyper_parameter: 0.1,
+      version: "latest",
     },
   });
 

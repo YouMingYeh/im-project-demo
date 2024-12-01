@@ -51,7 +51,7 @@ export default function ConfigurationForm() {
       stages: Array(5)
         .fill(null)
         .map((_, index) => ({
-          machines: [{ name: `stage ${index + 1}`, production: 28800 }],
+          machines: [{ name: `工作站 ${index + 1}`, production: 28800 }],
           startup_cost: 10,
           storage_capacity: 9999,
           stage_num: index + 1,
