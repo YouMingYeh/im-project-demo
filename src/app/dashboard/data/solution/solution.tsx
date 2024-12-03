@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 import { IconFileExport } from "@tabler/icons-react";
 import { MoreHorizontal } from "lucide-react";
+import WorksheetPct from "./worksheet_pct";
 import Vis from "@/components/custom/vis";
 
 export default function Solution() {
@@ -20,7 +21,7 @@ export default function Solution() {
           <CardDescription>這裡呈現每個訂單從開始到結束的時間</CardDescription>
         </CardHeader>
         <CardContent>
-          <p>Card Content</p>
+          <WorksheetPct/>
         </CardContent>
         <CardFooter className="gap-4">
           <Button variant={"outline"}>
