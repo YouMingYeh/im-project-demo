@@ -58,7 +58,7 @@ export default function Solution() {
           <CardDescription>這裡呈現生產規劃的日歷呈現法</CardDescription>
         </CardHeader>
         <CardContent>
-          <Vis filename="/asset/demo_1203/vis/chalendar.html" />
+          <Vis filename="/asset/demo_1203/vis/calendar.html" />
         </CardContent>
         <CardFooter className="gap-4">
           <Button variant={"outline"}>
