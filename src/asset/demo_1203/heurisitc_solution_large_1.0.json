@@ -1,0 +1,3228 @@
+{
+  "id": "39462185-b308-4a47-89fb-f50c46ea11e1",
+  "indexes": {
+    "I": 31,
+    "P": 57,
+    "S": 5,
+    "T": 120
+  },
+  "orders": [
+    {
+      "order_id": 2,
+      "deadline": 28800,
+      "earlyPanalty": 0,
+      "latePanalty": 0.08000000000000002,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 0,
+              "end_time": 28800
+            },
+            {
+              "start_time": 28800,
+              "end_time": 46272
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 46272,
+              "end_time": 57600
+            },
+            {
+              "start_time": 57600,
+              "end_time": 86400
+            },
+            {
+              "start_time": 86400,
+              "end_time": 92416
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 92416,
+              "end_time": 115200
+            },
+            {
+              "start_time": 115200,
+              "end_time": 143872
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 143872,
+              "end_time": 144000
+            },
+            {
+              "start_time": 144000,
+              "end_time": 172800
+            },
+            {
+              "start_time": 172800,
+              "end_time": 188176
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 188176,
+              "end_time": 201600
+            },
+            {
+              "start_time": 201600,
+              "end_time": 230400
+            },
+            {
+              "start_time": 230400,
+              "end_time": 233568
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 12,
+      "deadline": 172800,
+      "earlyPanalty": 0,
+      "latePanalty": 0.06000000000000001,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 46272,
+              "end_time": 57600
+            },
+            {
+              "start_time": 57600,
+              "end_time": 86400
+            },
+            {
+              "start_time": 86400,
+              "end_time": 98772
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 98772,
+              "end_time": 115200
+            },
+            {
+              "start_time": 115200,
+              "end_time": 144000
+            },
+            {
+              "start_time": 144000,
+              "end_time": 158448
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 158448,
+              "end_time": 172800
+            },
+            {
+              "start_time": 172800,
+              "end_time": 201600
+            },
+            {
+              "start_time": 201600,
+              "end_time": 213168
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 213168,
+              "end_time": 230400
+            },
+            {
+              "start_time": 230400,
+              "end_time": 259200
+            },
+            {
+              "start_time": 259200,
+              "end_time": 279744
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 279744,
+              "end_time": 288000
+            },
+            {
+              "start_time": 288000,
+              "end_time": 316800
+            },
+            {
+              "start_time": 316800,
+              "end_time": 342204
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 22,
+      "deadline": 403200,
+      "earlyPanalty": 0,
+      "latePanalty": 0.07,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 98772,
+              "end_time": 115200
+            },
+            {
+              "start_time": 115200,
+              "end_time": 144000
+            },
+            {
+              "start_time": 144000,
+              "end_time": 172800
+            },
+            {
+              "start_time": 172800,
+              "end_time": 191200
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 191200,
+              "end_time": 201600
+            },
+            {
+              "start_time": 201600,
+              "end_time": 230400
+            },
+            {
+              "start_time": 230400,
+              "end_time": 259200
+            },
+            {
+              "start_time": 259200,
+              "end_time": 288000
+            },
+            {
+              "start_time": 288000,
+              "end_time": 298734
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 298734,
+              "end_time": 316800
+            },
+            {
+              "start_time": 316800,
+              "end_time": 345600
+            },
+            {
+              "start_time": 345600,
+              "end_time": 374400
+            },
+            {
+              "start_time": 374400,
+              "end_time": 398358
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 398358,
+              "end_time": 403200
+            },
+            {
+              "start_time": 403200,
+              "end_time": 432000
+            },
+            {
+              "start_time": 432000,
+              "end_time": 460800
+            },
+            {
+              "start_time": 460800,
+              "end_time": 489600
+            },
+            {
+              "start_time": 489600,
+              "end_time": 500236
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 500236,
+              "end_time": 518400
+            },
+            {
+              "start_time": 518400,
+              "end_time": 547200
+            },
+            {
+              "start_time": 547200,
+              "end_time": 576000
+            },
+            {
+              "start_time": 576000,
+              "end_time": 597368
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 24,
+      "deadline": 489600,
+      "earlyPanalty": 0,
+      "latePanalty": 0.08000000000000002,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 191200,
+              "end_time": 201600
+            },
+            {
+              "start_time": 201600,
+              "end_time": 230400
+            },
+            {
+              "start_time": 230400,
+              "end_time": 259200
+            },
+            {
+              "start_time": 259200,
+              "end_time": 288000
+            },
+            {
+              "start_time": 288000,
+              "end_time": 292552
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 298734,
+              "end_time": 316800
+            },
+            {
+              "start_time": 316800,
+              "end_time": 345600
+            },
+            {
+              "start_time": 345600,
+              "end_time": 374400
+            },
+            {
+              "start_time": 374400,
+              "end_time": 391992
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 398358,
+              "end_time": 403200
+            },
+            {
+              "start_time": 403200,
+              "end_time": 432000
+            },
+            {
+              "start_time": 432000,
+              "end_time": 460800
+            },
+            {
+              "start_time": 460800,
+              "end_time": 489600
+            },
+            {
+              "start_time": 489600,
+              "end_time": 501966
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 501966,
+              "end_time": 518400
+            },
+            {
+              "start_time": 518400,
+              "end_time": 547200
+            },
+            {
+              "start_time": 547200,
+              "end_time": 576000
+            },
+            {
+              "start_time": 576000,
+              "end_time": 587790
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 597368,
+              "end_time": 604800
+            },
+            {
+              "start_time": 604800,
+              "end_time": 633600
+            },
+            {
+              "start_time": 633600,
+              "end_time": 662400
+            },
+            {
+              "start_time": 662400,
+              "end_time": 691200
+            },
+            {
+              "start_time": 691200,
+              "end_time": 697868
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 27,
+      "deadline": 489600,
+      "earlyPanalty": 0,
+      "latePanalty": 0.09000000000000001,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 292552,
+              "end_time": 316800
+            },
+            {
+              "start_time": 316800,
+              "end_time": 322440
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 391992,
+              "end_time": 403200
+            },
+            {
+              "start_time": 403200,
+              "end_time": 422584
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 501966,
+              "end_time": 518400
+            },
+            {
+              "start_time": 518400,
+              "end_time": 538382
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 587790,
+              "end_time": 604800
+            },
+            {
+              "start_time": 604800,
+              "end_time": 617134
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 697868,
+              "end_time": 720000
+            },
+            {
+              "start_time": 720000,
+              "end_time": 732748
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 19,
+      "deadline": 518400,
+      "earlyPanalty": 0,
+      "latePanalty": 0.24000000000000005,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 322440,
+              "end_time": 345600
+            },
+            {
+              "start_time": 345600,
+              "end_time": 374400
+            },
+            {
+              "start_time": 374400,
+              "end_time": 403200
+            },
+            {
+              "start_time": 403200,
+              "end_time": 432000
+            },
+            {
+              "start_time": 432000,
+              "end_time": 460800
+            },
+            {
+              "start_time": 460800,
+              "end_time": 489600
+            },
+            {
+              "start_time": 489600,
+              "end_time": 497816
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 497816,
+              "end_time": 518400
+            },
+            {
+              "start_time": 518400,
+              "end_time": 547200
+            },
+            {
+              "start_time": 547200,
+              "end_time": 576000
+            },
+            {
+              "start_time": 576000,
+              "end_time": 604800
+            },
+            {
+              "start_time": 604800,
+              "end_time": 633600
+            },
+            {
+              "start_time": 633600,
+              "end_time": 662400
+            },
+            {
+              "start_time": 662400,
+              "end_time": 679208
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 679208,
+              "end_time": 691200
+            },
+            {
+              "start_time": 691200,
+              "end_time": 720000
+            },
+            {
+              "start_time": 720000,
+              "end_time": 748800
+            },
+            {
+              "start_time": 748800,
+              "end_time": 777600
+            },
+            {
+              "start_time": 777600,
+              "end_time": 806400
+            },
+            {
+              "start_time": 806400,
+              "end_time": 835200
+            },
+            {
+              "start_time": 835200,
+              "end_time": 845592
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 845592,
+              "end_time": 864000
+            },
+            {
+              "start_time": 864000,
+              "end_time": 892800
+            },
+            {
+              "start_time": 892800,
+              "end_time": 921600
+            },
+            {
+              "start_time": 921600,
+              "end_time": 950400
+            },
+            {
+              "start_time": 950400,
+              "end_time": 979200
+            },
+            {
+              "start_time": 979200,
+              "end_time": 1008000
+            },
+            {
+              "start_time": 1008000,
+              "end_time": 1016040
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 1016040,
+              "end_time": 1036800
+            },
+            {
+              "start_time": 1036800,
+              "end_time": 1065600
+            },
+            {
+              "start_time": 1065600,
+              "end_time": 1094400
+            },
+            {
+              "start_time": 1094400,
+              "end_time": 1123200
+            },
+            {
+              "start_time": 1123200,
+              "end_time": 1152000
+            },
+            {
+              "start_time": 1152000,
+              "end_time": 1180800
+            },
+            {
+              "start_time": 1180800,
+              "end_time": 1201832
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 11,
+      "deadline": 604800,
+      "earlyPanalty": 0,
+      "latePanalty": 0.22000000000000003,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 497816,
+              "end_time": 518400
+            },
+            {
+              "start_time": 518400,
+              "end_time": 532916
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 679208,
+              "end_time": 691200
+            },
+            {
+              "start_time": 691200,
+              "end_time": 711860
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 845592,
+              "end_time": 864000
+            },
+            {
+              "start_time": 864000,
+              "end_time": 879612
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 1016040,
+              "end_time": 1036800
+            },
+            {
+              "start_time": 1036800,
+              "end_time": 1050852
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 1201832,
+              "end_time": 1209600
+            },
+            {
+              "start_time": 1209600,
+              "end_time": 1238400
+            },
+            {
+              "start_time": 1238400,
+              "end_time": 1238696
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 21,
+      "deadline": 720000,
+      "earlyPanalty": 0,
+      "latePanalty": 0.33000000000000007,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 532916,
+              "end_time": 547200
+            },
+            {
+              "start_time": 547200,
+              "end_time": 576000
+            },
+            {
+              "start_time": 576000,
+              "end_time": 604800
+            },
+            {
+              "start_time": 604800,
+              "end_time": 633600
+            },
+            {
+              "start_time": 633600,
+              "end_time": 662400
+            },
+            {
+              "start_time": 662400,
+              "end_time": 691200
+            },
+            {
+              "start_time": 691200,
+              "end_time": 720000
+            },
+            {
+              "start_time": 720000,
+              "end_time": 748800
+            },
+            {
+              "start_time": 748800,
+              "end_time": 769412
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 769412,
+              "end_time": 777600
+            },
+            {
+              "start_time": 777600,
+              "end_time": 806400
+            },
+            {
+              "start_time": 806400,
+              "end_time": 835200
+            },
+            {
+              "start_time": 835200,
+              "end_time": 864000
+            },
+            {
+              "start_time": 864000,
+              "end_time": 892800
+            },
+            {
+              "start_time": 892800,
+              "end_time": 921600
+            },
+            {
+              "start_time": 921600,
+              "end_time": 950400
+            },
+            {
+              "start_time": 950400,
+              "end_time": 979200
+            },
+            {
+              "start_time": 979200,
+              "end_time": 987308
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 987308,
+              "end_time": 1008000
+            },
+            {
+              "start_time": 1008000,
+              "end_time": 1036800
+            },
+            {
+              "start_time": 1036800,
+              "end_time": 1065600
+            },
+            {
+              "start_time": 1065600,
+              "end_time": 1094400
+            },
+            {
+              "start_time": 1094400,
+              "end_time": 1123200
+            },
+            {
+              "start_time": 1123200,
+              "end_time": 1152000
+            },
+            {
+              "start_time": 1152000,
+              "end_time": 1180800
+            },
+            {
+              "start_time": 1180800,
+              "end_time": 1209600
+            },
+            {
+              "start_time": 1209600,
+              "end_time": 1226636
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 1226636,
+              "end_time": 1238400
+            },
+            {
+              "start_time": 1238400,
+              "end_time": 1267200
+            },
+            {
+              "start_time": 1267200,
+              "end_time": 1296000
+            },
+            {
+              "start_time": 1296000,
+              "end_time": 1324800
+            },
+            {
+              "start_time": 1324800,
+              "end_time": 1353600
+            },
+            {
+              "start_time": 1353600,
+              "end_time": 1382400
+            },
+            {
+              "start_time": 1382400,
+              "end_time": 1411200
+            },
+            {
+              "start_time": 1411200,
+              "end_time": 1440000
+            },
+            {
+              "start_time": 1440000,
+              "end_time": 1442132
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 1442132,
+              "end_time": 1468800
+            },
+            {
+              "start_time": 1468800,
+              "end_time": 1497600
+            },
+            {
+              "start_time": 1497600,
+              "end_time": 1526400
+            },
+            {
+              "start_time": 1526400,
+              "end_time": 1555200
+            },
+            {
+              "start_time": 1555200,
+              "end_time": 1584000
+            },
+            {
+              "start_time": 1584000,
+              "end_time": 1612800
+            },
+            {
+              "start_time": 1612800,
+              "end_time": 1641600
+            },
+            {
+              "start_time": 1641600,
+              "end_time": 1662212
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 18,
+      "deadline": 748800,
+      "earlyPanalty": 0,
+      "latePanalty": 0.37000000000000005,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 769412,
+              "end_time": 777600
+            },
+            {
+              "start_time": 777600,
+              "end_time": 806400
+            },
+            {
+              "start_time": 806400,
+              "end_time": 835200
+            },
+            {
+              "start_time": 835200,
+              "end_time": 864000
+            },
+            {
+              "start_time": 864000,
+              "end_time": 885796
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 987308,
+              "end_time": 1008000
+            },
+            {
+              "start_time": 1008000,
+              "end_time": 1036800
+            },
+            {
+              "start_time": 1036800,
+              "end_time": 1065600
+            },
+            {
+              "start_time": 1065600,
+              "end_time": 1094400
+            },
+            {
+              "start_time": 1094400,
+              "end_time": 1116140
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 1226636,
+              "end_time": 1238400
+            },
+            {
+              "start_time": 1238400,
+              "end_time": 1267200
+            },
+            {
+              "start_time": 1267200,
+              "end_time": 1296000
+            },
+            {
+              "start_time": 1296000,
+              "end_time": 1324800
+            },
+            {
+              "start_time": 1324800,
+              "end_time": 1343026
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 1442132,
+              "end_time": 1468800
+            },
+            {
+              "start_time": 1468800,
+              "end_time": 1497600
+            },
+            {
+              "start_time": 1497600,
+              "end_time": 1526400
+            },
+            {
+              "start_time": 1526400,
+              "end_time": 1555200
+            },
+            {
+              "start_time": 1555200,
+              "end_time": 1556532
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 1662212,
+              "end_time": 1670400
+            },
+            {
+              "start_time": 1670400,
+              "end_time": 1699200
+            },
+            {
+              "start_time": 1699200,
+              "end_time": 1728000
+            },
+            {
+              "start_time": 1728000,
+              "end_time": 1756800
+            },
+            {
+              "start_time": 1756800,
+              "end_time": 1785600
+            },
+            {
+              "start_time": 1785600,
+              "end_time": 1795914
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 26,
+      "deadline": 979200,
+      "earlyPanalty": 0,
+      "latePanalty": 0.36000000000000004,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 885796,
+              "end_time": 892800
+            },
+            {
+              "start_time": 892800,
+              "end_time": 921600
+            },
+            {
+              "start_time": 921600,
+              "end_time": 950400
+            },
+            {
+              "start_time": 950400,
+              "end_time": 979200
+            },
+            {
+              "start_time": 979200,
+              "end_time": 1008000
+            },
+            {
+              "start_time": 1008000,
+              "end_time": 1036800
+            },
+            {
+              "start_time": 1036800,
+              "end_time": 1065600
+            },
+            {
+              "start_time": 1065600,
+              "end_time": 1078208
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1116140,
+              "end_time": 1123200
+            },
+            {
+              "start_time": 1123200,
+              "end_time": 1152000
+            },
+            {
+              "start_time": 1152000,
+              "end_time": 1180800
+            },
+            {
+              "start_time": 1180800,
+              "end_time": 1209600
+            },
+            {
+              "start_time": 1209600,
+              "end_time": 1238400
+            },
+            {
+              "start_time": 1238400,
+              "end_time": 1267200
+            },
+            {
+              "start_time": 1267200,
+              "end_time": 1296000
+            },
+            {
+              "start_time": 1296000,
+              "end_time": 1301188
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 1343026,
+              "end_time": 1353600
+            },
+            {
+              "start_time": 1353600,
+              "end_time": 1382400
+            },
+            {
+              "start_time": 1382400,
+              "end_time": 1411200
+            },
+            {
+              "start_time": 1411200,
+              "end_time": 1440000
+            },
+            {
+              "start_time": 1440000,
+              "end_time": 1468800
+            },
+            {
+              "start_time": 1468800,
+              "end_time": 1497600
+            },
+            {
+              "start_time": 1497600,
+              "end_time": 1514158
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 1556532,
+              "end_time": 1584000
+            },
+            {
+              "start_time": 1584000,
+              "end_time": 1612800
+            },
+            {
+              "start_time": 1612800,
+              "end_time": 1641600
+            },
+            {
+              "start_time": 1641600,
+              "end_time": 1670400
+            },
+            {
+              "start_time": 1670400,
+              "end_time": 1699200
+            },
+            {
+              "start_time": 1699200,
+              "end_time": 1719720
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 1795914,
+              "end_time": 1814400
+            },
+            {
+              "start_time": 1814400,
+              "end_time": 1843200
+            },
+            {
+              "start_time": 1843200,
+              "end_time": 1872000
+            },
+            {
+              "start_time": 1872000,
+              "end_time": 1900800
+            },
+            {
+              "start_time": 1900800,
+              "end_time": 1929600
+            },
+            {
+              "start_time": 1929600,
+              "end_time": 1958400
+            },
+            {
+              "start_time": 1958400,
+              "end_time": 1987200
+            },
+            {
+              "start_time": 1987200,
+              "end_time": 1995970
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 20,
+      "deadline": 1065600,
+      "earlyPanalty": 0,
+      "latePanalty": 0.33000000000000007,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 1078208,
+              "end_time": 1094400
+            },
+            {
+              "start_time": 1094400,
+              "end_time": 1095938
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1301188,
+              "end_time": 1320808
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 1514158,
+              "end_time": 1526400
+            },
+            {
+              "start_time": 1526400,
+              "end_time": 1533022
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 1719720,
+              "end_time": 1728000
+            },
+            {
+              "start_time": 1728000,
+              "end_time": 1740636
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 1995970,
+              "end_time": 2014420
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 16,
+      "deadline": 1209600,
+      "earlyPanalty": 0,
+      "latePanalty": 0.32000000000000006,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 1095938,
+              "end_time": 1123200
+            },
+            {
+              "start_time": 1123200,
+              "end_time": 1152000
+            },
+            {
+              "start_time": 1152000,
+              "end_time": 1180800
+            },
+            {
+              "start_time": 1180800,
+              "end_time": 1182898
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1320808,
+              "end_time": 1324800
+            },
+            {
+              "start_time": 1324800,
+              "end_time": 1353600
+            },
+            {
+              "start_time": 1353600,
+              "end_time": 1382400
+            },
+            {
+              "start_time": 1382400,
+              "end_time": 1400008
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 1533022,
+              "end_time": 1555200
+            },
+            {
+              "start_time": 1555200,
+              "end_time": 1584000
+            },
+            {
+              "start_time": 1584000,
+              "end_time": 1612800
+            },
+            {
+              "start_time": 1612800,
+              "end_time": 1627982
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 1740636,
+              "end_time": 1756800
+            },
+            {
+              "start_time": 1756800,
+              "end_time": 1785600
+            },
+            {
+              "start_time": 1785600,
+              "end_time": 1814400
+            },
+            {
+              "start_time": 1814400,
+              "end_time": 1827756
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2014420,
+              "end_time": 2016000
+            },
+            {
+              "start_time": 2016000,
+              "end_time": 2044800
+            },
+            {
+              "start_time": 2044800,
+              "end_time": 2073600
+            },
+            {
+              "start_time": 2073600,
+              "end_time": 2102400
+            },
+            {
+              "start_time": 2102400,
+              "end_time": 2105780
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 29,
+      "deadline": 1728000,
+      "earlyPanalty": 0,
+      "latePanalty": 0.16000000000000003,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 1182898,
+              "end_time": 1209600
+            },
+            {
+              "start_time": 1209600,
+              "end_time": 1238400
+            },
+            {
+              "start_time": 1238400,
+              "end_time": 1249548
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1400008,
+              "end_time": 1411200
+            },
+            {
+              "start_time": 1411200,
+              "end_time": 1440000
+            },
+            {
+              "start_time": 1440000,
+              "end_time": 1464518
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 1627982,
+              "end_time": 1641600
+            },
+            {
+              "start_time": 1641600,
+              "end_time": 1670400
+            },
+            {
+              "start_time": 1670400,
+              "end_time": 1683846
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 1827756,
+              "end_time": 1843200
+            },
+            {
+              "start_time": 1843200,
+              "end_time": 1872000
+            },
+            {
+              "start_time": 1872000,
+              "end_time": 1892978
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2105780,
+              "end_time": 2131200
+            },
+            {
+              "start_time": 2131200,
+              "end_time": 2160000
+            },
+            {
+              "start_time": 2160000,
+              "end_time": 2165692
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 17,
+      "deadline": 1756800,
+      "earlyPanalty": 0,
+      "latePanalty": 0.15000000000000002,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 1249548,
+              "end_time": 1260348
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1464518,
+              "end_time": 1468800
+            },
+            {
+              "start_time": 1468800,
+              "end_time": 1475102
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 1683846,
+              "end_time": 1697046
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 1892978,
+              "end_time": 1900800
+            },
+            {
+              "start_time": 1900800,
+              "end_time": 1907222
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2165692,
+              "end_time": 2177572
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 7,
+      "deadline": 1929600,
+      "earlyPanalty": 0,
+      "latePanalty": 0.1,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 1260348,
+              "end_time": 1267200
+            },
+            {
+              "start_time": 1267200,
+              "end_time": 1274556
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1475102,
+              "end_time": 1490334
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 1697046,
+              "end_time": 1699200
+            },
+            {
+              "start_time": 1699200,
+              "end_time": 1713686
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 1907222,
+              "end_time": 1924166
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2177572,
+              "end_time": 2188800
+            },
+            {
+              "start_time": 2188800,
+              "end_time": 2193028
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 0,
+      "deadline": 1987200,
+      "earlyPanalty": 0,
+      "latePanalty": 0.09000000000000001,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 1274556,
+              "end_time": 1296000
+            },
+            {
+              "start_time": 1296000,
+              "end_time": 1320588
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1490334,
+              "end_time": 1497600
+            },
+            {
+              "start_time": 1497600,
+              "end_time": 1526400
+            },
+            {
+              "start_time": 1526400,
+              "end_time": 1535694
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 1713686,
+              "end_time": 1728000
+            },
+            {
+              "start_time": 1728000,
+              "end_time": 1756800
+            },
+            {
+              "start_time": 1756800,
+              "end_time": 1760614
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 1924166,
+              "end_time": 1929600
+            },
+            {
+              "start_time": 1929600,
+              "end_time": 1958400
+            },
+            {
+              "start_time": 1958400,
+              "end_time": 1967462
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2193028,
+              "end_time": 2217600
+            },
+            {
+              "start_time": 2217600,
+              "end_time": 2244452
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 6,
+      "deadline": 1987200,
+      "earlyPanalty": 0,
+      "latePanalty": 0.13,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 1320588,
+              "end_time": 1324800
+            },
+            {
+              "start_time": 1324800,
+              "end_time": 1353600
+            },
+            {
+              "start_time": 1353600,
+              "end_time": 1382400
+            },
+            {
+              "start_time": 1382400,
+              "end_time": 1411200
+            },
+            {
+              "start_time": 1411200,
+              "end_time": 1440000
+            },
+            {
+              "start_time": 1440000,
+              "end_time": 1450352
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1535694,
+              "end_time": 1555200
+            },
+            {
+              "start_time": 1555200,
+              "end_time": 1584000
+            },
+            {
+              "start_time": 1584000,
+              "end_time": 1612800
+            },
+            {
+              "start_time": 1612800,
+              "end_time": 1641600
+            },
+            {
+              "start_time": 1641600,
+              "end_time": 1653772
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 1760614,
+              "end_time": 1785600
+            },
+            {
+              "start_time": 1785600,
+              "end_time": 1814400
+            },
+            {
+              "start_time": 1814400,
+              "end_time": 1843200
+            },
+            {
+              "start_time": 1843200,
+              "end_time": 1865136
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 1967462,
+              "end_time": 1987200
+            },
+            {
+              "start_time": 1987200,
+              "end_time": 2016000
+            },
+            {
+              "start_time": 2016000,
+              "end_time": 2044800
+            },
+            {
+              "start_time": 2044800,
+              "end_time": 2073600
+            },
+            {
+              "start_time": 2073600,
+              "end_time": 2094194
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2244452,
+              "end_time": 2246400
+            },
+            {
+              "start_time": 2246400,
+              "end_time": 2275200
+            },
+            {
+              "start_time": 2275200,
+              "end_time": 2304000
+            },
+            {
+              "start_time": 2304000,
+              "end_time": 2332800
+            },
+            {
+              "start_time": 2332800,
+              "end_time": 2354118
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 13,
+      "deadline": 2016000,
+      "earlyPanalty": 0,
+      "latePanalty": 0.13,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 1450352,
+              "end_time": 1468800
+            },
+            {
+              "start_time": 1468800,
+              "end_time": 1481456
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1653772,
+              "end_time": 1670400
+            },
+            {
+              "start_time": 1670400,
+              "end_time": 1684076
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 1865136,
+              "end_time": 1872000
+            },
+            {
+              "start_time": 1872000,
+              "end_time": 1899408
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 2094194,
+              "end_time": 2102400
+            },
+            {
+              "start_time": 2102400,
+              "end_time": 2127954
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2354118,
+              "end_time": 2361600
+            },
+            {
+              "start_time": 2361600,
+              "end_time": 2387142
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 30,
+      "deadline": 2188800,
+      "earlyPanalty": 0,
+      "latePanalty": 0.08000000000000002,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 1481456,
+              "end_time": 1497600
+            },
+            {
+              "start_time": 1497600,
+              "end_time": 1501592
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1684076,
+              "end_time": 1699200
+            },
+            {
+              "start_time": 1699200,
+              "end_time": 1709132
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 1899408,
+              "end_time": 1900800
+            },
+            {
+              "start_time": 1900800,
+              "end_time": 1924704
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 2127954,
+              "end_time": 2131200
+            },
+            {
+              "start_time": 2131200,
+              "end_time": 2156490
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2387142,
+              "end_time": 2390400
+            },
+            {
+              "start_time": 2390400,
+              "end_time": 2414838
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 9,
+      "deadline": 2246400,
+      "earlyPanalty": 0,
+      "latePanalty": 0.09000000000000001,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 1501592,
+              "end_time": 1526400
+            },
+            {
+              "start_time": 1526400,
+              "end_time": 1555200
+            },
+            {
+              "start_time": 1555200,
+              "end_time": 1584000
+            },
+            {
+              "start_time": 1584000,
+              "end_time": 1605674
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1709132,
+              "end_time": 1728000
+            },
+            {
+              "start_time": 1728000,
+              "end_time": 1756800
+            },
+            {
+              "start_time": 1756800,
+              "end_time": 1785600
+            },
+            {
+              "start_time": 1785600,
+              "end_time": 1799228
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 1924704,
+              "end_time": 1929600
+            },
+            {
+              "start_time": 1929600,
+              "end_time": 1958400
+            },
+            {
+              "start_time": 1958400,
+              "end_time": 1987200
+            },
+            {
+              "start_time": 1987200,
+              "end_time": 2016000
+            },
+            {
+              "start_time": 2016000,
+              "end_time": 2020488
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 2156490,
+              "end_time": 2160000
+            },
+            {
+              "start_time": 2160000,
+              "end_time": 2188800
+            },
+            {
+              "start_time": 2188800,
+              "end_time": 2217600
+            },
+            {
+              "start_time": 2217600,
+              "end_time": 2246400
+            },
+            {
+              "start_time": 2246400,
+              "end_time": 2254764
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2414838,
+              "end_time": 2419200
+            },
+            {
+              "start_time": 2419200,
+              "end_time": 2448000
+            },
+            {
+              "start_time": 2448000,
+              "end_time": 2476800
+            },
+            {
+              "start_time": 2476800,
+              "end_time": 2503446
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 15,
+      "deadline": 2448000,
+      "earlyPanalty": 0,
+      "latePanalty": 0.06000000000000001,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 1605674,
+              "end_time": 1612800
+            },
+            {
+              "start_time": 1612800,
+              "end_time": 1641600
+            },
+            {
+              "start_time": 1641600,
+              "end_time": 1670400
+            },
+            {
+              "start_time": 1670400,
+              "end_time": 1695998
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1799228,
+              "end_time": 1814400
+            },
+            {
+              "start_time": 1814400,
+              "end_time": 1843200
+            },
+            {
+              "start_time": 1843200,
+              "end_time": 1872000
+            },
+            {
+              "start_time": 1872000,
+              "end_time": 1900800
+            },
+            {
+              "start_time": 1900800,
+              "end_time": 1901690
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 2020488,
+              "end_time": 2044800
+            },
+            {
+              "start_time": 2044800,
+              "end_time": 2073600
+            },
+            {
+              "start_time": 2073600,
+              "end_time": 2102400
+            },
+            {
+              "start_time": 2102400,
+              "end_time": 2122992
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 2254764,
+              "end_time": 2275200
+            },
+            {
+              "start_time": 2275200,
+              "end_time": 2304000
+            },
+            {
+              "start_time": 2304000,
+              "end_time": 2332800
+            },
+            {
+              "start_time": 2332800,
+              "end_time": 2333898
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2503446,
+              "end_time": 2505600
+            },
+            {
+              "start_time": 2505600,
+              "end_time": 2534400
+            },
+            {
+              "start_time": 2534400,
+              "end_time": 2563200
+            },
+            {
+              "start_time": 2563200,
+              "end_time": 2592000
+            },
+            {
+              "start_time": 2592000,
+              "end_time": 2595480
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 23,
+      "deadline": 2476800,
+      "earlyPanalty": 0,
+      "latePanalty": 0.05,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 1695998,
+              "end_time": 1699200
+            },
+            {
+              "start_time": 1699200,
+              "end_time": 1707632
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1901690,
+              "end_time": 1917202
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 2122992,
+              "end_time": 2131200
+            },
+            {
+              "start_time": 2131200,
+              "end_time": 2139050
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 2333898,
+              "end_time": 2350418
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2595480,
+              "end_time": 2609004
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 1,
+      "deadline": 2563200,
+      "earlyPanalty": 0,
+      "latePanalty": 0.020000000000000004,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 1707632,
+              "end_time": 1717904
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1917202,
+              "end_time": 1929600
+            },
+            {
+              "start_time": 1929600,
+              "end_time": 1930186
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 2139050,
+              "end_time": 2152742
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 2350418,
+              "end_time": 2360510
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2609004,
+              "end_time": 2620800
+            },
+            {
+              "start_time": 2620800,
+              "end_time": 2620980
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 25,
+      "deadline": 2678400,
+      "earlyPanalty": 0,
+      "latePanalty": 0,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 1717904,
+              "end_time": 1728000
+            },
+            {
+              "start_time": 1728000,
+              "end_time": 1756800
+            },
+            {
+              "start_time": 1756800,
+              "end_time": 1777112
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 1930186,
+              "end_time": 1958400
+            },
+            {
+              "start_time": 1958400,
+              "end_time": 1978270
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 2152742,
+              "end_time": 2160000
+            },
+            {
+              "start_time": 2160000,
+              "end_time": 2188800
+            },
+            {
+              "start_time": 2188800,
+              "end_time": 2211278
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 2360510,
+              "end_time": 2361600
+            },
+            {
+              "start_time": 2361600,
+              "end_time": 2390400
+            },
+            {
+              "start_time": 2390400,
+              "end_time": 2412986
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2620980,
+              "end_time": 2649600
+            },
+            {
+              "start_time": 2649600,
+              "end_time": 2678400
+            },
+            {
+              "start_time": 2678400,
+              "end_time": 2678772
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 5,
+      "deadline": 2851200,
+      "earlyPanalty": 0,
+      "latePanalty": 0,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 2700492,
+              "end_time": 2707199
+            },
+            {
+              "start_time": 2707200,
+              "end_time": 2727631
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 2727631,
+              "end_time": 2735999
+            },
+            {
+              "start_time": 2736000,
+              "end_time": 2758958
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 2758958,
+              "end_time": 2764799
+            },
+            {
+              "start_time": 2764800,
+              "end_time": 2785285
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 2785285,
+              "end_time": 2793599
+            },
+            {
+              "start_time": 2793600,
+              "end_time": 2820304
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2820304,
+              "end_time": 2822399
+            },
+            {
+              "start_time": 2822400,
+              "end_time": 2851199
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 8,
+      "deadline": 2995200,
+      "earlyPanalty": 0,
+      "latePanalty": 0,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 2845306,
+              "end_time": 2851199
+            },
+            {
+              "start_time": 2851200,
+              "end_time": 2874267
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 2874267,
+              "end_time": 2879999
+            },
+            {
+              "start_time": 2880000,
+              "end_time": 2900060
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 2900060,
+              "end_time": 2908799
+            },
+            {
+              "start_time": 2908800,
+              "end_time": 2929917
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 2929917,
+              "end_time": 2937599
+            },
+            {
+              "start_time": 2937600,
+              "end_time": 2956830
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 2956830,
+              "end_time": 2966399
+            },
+            {
+              "start_time": 2966400,
+              "end_time": 2995199
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 3,
+      "deadline": 3139200,
+      "earlyPanalty": 0,
+      "latePanalty": 0,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 2559275,
+              "end_time": 2563199
+            },
+            {
+              "start_time": 2563200,
+              "end_time": 2591999
+            },
+            {
+              "start_time": 2592000,
+              "end_time": 2620799
+            },
+            {
+              "start_time": 2620800,
+              "end_time": 2649599
+            },
+            {
+              "start_time": 2649600,
+              "end_time": 2657023
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 2657023,
+              "end_time": 2678399
+            },
+            {
+              "start_time": 2678400,
+              "end_time": 2707199
+            },
+            {
+              "start_time": 2707200,
+              "end_time": 2727631
+            },
+            {
+              "start_time": 2758958,
+              "end_time": 2764799
+            },
+            {
+              "start_time": 2764800,
+              "end_time": 2790917
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 2790917,
+              "end_time": 2793599
+            },
+            {
+              "start_time": 2793600,
+              "end_time": 2822399
+            },
+            {
+              "start_time": 2822400,
+              "end_time": 2851199
+            },
+            {
+              "start_time": 2851200,
+              "end_time": 2879999
+            },
+            {
+              "start_time": 2880000,
+              "end_time": 2889681
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 2889681,
+              "end_time": 2908799
+            },
+            {
+              "start_time": 2908800,
+              "end_time": 2929917
+            },
+            {
+              "start_time": 2956830,
+              "end_time": 2966399
+            },
+            {
+              "start_time": 2966400,
+              "end_time": 2995199
+            },
+            {
+              "start_time": 2995200,
+              "end_time": 3023999
+            },
+            {
+              "start_time": 3024000,
+              "end_time": 3030818
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 3030818,
+              "end_time": 3052799
+            },
+            {
+              "start_time": 3052800,
+              "end_time": 3081599
+            },
+            {
+              "start_time": 3081600,
+              "end_time": 3110399
+            },
+            {
+              "start_time": 3110400,
+              "end_time": 3139199
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 4,
+      "deadline": 3196800,
+      "earlyPanalty": 0,
+      "latePanalty": 0,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 3140194,
+              "end_time": 3151474
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 3151474,
+              "end_time": 3164722
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 3164722,
+              "end_time": 3167999
+            },
+            {
+              "start_time": 3168000,
+              "end_time": 3174611
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 3174611,
+              "end_time": 3186131
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 3186131,
+              "end_time": 3196799
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 28,
+      "deadline": 3312000,
+      "earlyPanalty": 0,
+      "latePanalty": 0,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 3248697,
+              "end_time": 3254399
+            },
+            {
+              "start_time": 3254400,
+              "end_time": 3259762
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 3259762,
+              "end_time": 3272134
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 3272134,
+              "end_time": 3283199
+            },
+            {
+              "start_time": 3283200,
+              "end_time": 3286199
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 3286199,
+              "end_time": 3300479
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 3300479,
+              "end_time": 3311999
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 14,
+      "deadline": 3340800,
+      "earlyPanalty": 0,
+      "latePanalty": 0,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 2795405,
+              "end_time": 2822399
+            },
+            {
+              "start_time": 2822400,
+              "end_time": 2845306
+            },
+            {
+              "start_time": 2874267,
+              "end_time": 2879999
+            },
+            {
+              "start_time": 2880000,
+              "end_time": 2908799
+            },
+            {
+              "start_time": 2908800,
+              "end_time": 2924937
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 2924937,
+              "end_time": 2937599
+            },
+            {
+              "start_time": 2937600,
+              "end_time": 2966399
+            },
+            {
+              "start_time": 2966400,
+              "end_time": 2995199
+            },
+            {
+              "start_time": 2995200,
+              "end_time": 3023999
+            },
+            {
+              "start_time": 3024000,
+              "end_time": 3039237
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 3039237,
+              "end_time": 3052799
+            },
+            {
+              "start_time": 3052800,
+              "end_time": 3081599
+            },
+            {
+              "start_time": 3081600,
+              "end_time": 3110399
+            },
+            {
+              "start_time": 3110400,
+              "end_time": 3130240
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 3130240,
+              "end_time": 3139199
+            },
+            {
+              "start_time": 3139200,
+              "end_time": 3167999
+            },
+            {
+              "start_time": 3168000,
+              "end_time": 3174611
+            },
+            {
+              "start_time": 3186131,
+              "end_time": 3196799
+            },
+            {
+              "start_time": 3196800,
+              "end_time": 3225599
+            },
+            {
+              "start_time": 3225600,
+              "end_time": 3234948
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 3234948,
+              "end_time": 3254399
+            },
+            {
+              "start_time": 3254400,
+              "end_time": 3283199
+            },
+            {
+              "start_time": 3283200,
+              "end_time": 3300479
+            },
+            {
+              "start_time": 3312000,
+              "end_time": 3340799
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_id": 10,
+      "deadline": 3484800,
+      "earlyPanalty": 0.010000000000000002,
+      "latePanalty": 0,
+      "stages": [
+        {
+          "stage_id": 0,
+          "process_periods": [
+            {
+              "start_time": 3194834,
+              "end_time": 3196799
+            },
+            {
+              "start_time": 3196800,
+              "end_time": 3225599
+            },
+            {
+              "start_time": 3225600,
+              "end_time": 3239716
+            }
+          ]
+        },
+        {
+          "stage_id": 1,
+          "process_periods": [
+            {
+              "start_time": 3239716,
+              "end_time": 3254399
+            },
+            {
+              "start_time": 3254400,
+              "end_time": 3259762
+            },
+            {
+              "start_time": 3272134,
+              "end_time": 3283199
+            },
+            {
+              "start_time": 3283200,
+              "end_time": 3291450
+            }
+          ]
+        },
+        {
+          "stage_id": 2,
+          "process_periods": [
+            {
+              "start_time": 3291450,
+              "end_time": 3311999
+            },
+            {
+              "start_time": 3312000,
+              "end_time": 3340799
+            },
+            {
+              "start_time": 3340800,
+              "end_time": 3345068
+            }
+          ]
+        },
+        {
+          "stage_id": 3,
+          "process_periods": [
+            {
+              "start_time": 3345068,
+              "end_time": 3369599
+            },
+            {
+              "start_time": 3369600,
+              "end_time": 3398399
+            },
+            {
+              "start_time": 3398400,
+              "end_time": 3402190
+            }
+          ]
+        },
+        {
+          "stage_id": 4,
+          "process_periods": [
+            {
+              "start_time": 3402190,
+              "end_time": 3427199
+            },
+            {
+              "start_time": 3427200,
+              "end_time": 3455999
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created_at": "2024-12-03T10:23:54.633883",
+    "status": "success",
+    "message": "Optimization completed successfully",
+    "testcase_id": "2795ea20-4e20-463f-9b7c-17d35baf3397",
+    "order": [
+      "04e5370d-2d78-481d-ad89-791651c0d1e6",
+      "0850ac4a-91cc-4866-a8eb-dcccfc73fdce",
+      "09731d86-f2bf-4ab6-8920-a874277b6a88",
+      "1cacfbf6-bd58-4f0f-ae4a-18f172c8cd28",
+      "1d537743-3b9e-4875-92f3-7843bde42ee0",
+      "2d6c4f63-c219-46b8-8037-743069360e2a",
+      "3b33980a-8bd1-4f34-addb-e4f64c840ac9",
+      "449ab923-ef0d-434b-9576-13675dd9a91d",
+      "4c31f969-8c0f-4a88-b5d8-74683c7247d0",
+      "553fa81a-095c-4084-8fc1-52feaa3802dd",
+      "58791e5f-be8d-444d-a8fc-54941078f21c",
+      "58d64911-24b6-4fde-ad25-78039e524ead",
+      "6967bd1b-88c7-4f0c-adcf-8d90a99112af",
+      "7a76837b-0967-4151-bc6e-1764e5acdd64",
+      "7c40a2de-7622-49ec-9817-a5af96826457",
+      "7e451916-a823-40bf-b993-c8e3c34ba3b8",
+      "93bae472-3a87-4422-98ff-ca44c2840f0f",
+      "94408b51-27fb-4ffa-8876-0388ca825b84",
+      "9c68de17-eb41-4fd7-ba2c-75703f4244df",
+      "9f4c3d43-e402-4ee9-9802-cb24d68ea6ab",
+      "a202ac80-f1f6-4a08-a8a1-d88526a76712",
+      "b0d215dc-4580-4170-b2b2-88bf7ac26668",
+      "c67a9289-43ae-435a-b674-a2cf757dec21",
+      "d49e53e7-de48-425d-9d18-f3ab03ccd1f8",
+      "d8833267-d79d-4ed2-8f67-2519b51eb64a",
+      "e135c2c5-e50d-4045-82f0-a9f060b93690",
+      "e1bc1bfa-bf69-4183-b315-c0add8497622",
+      "f1ff4f32-eec4-4a3e-ab6c-5073af514d20",
+      "f279450b-6387-4531-b4f8-10bf366c924b",
+      "f71b00ca-1ff8-494d-aee7-635d9e192375",
+      "fc48d1bd-d59c-4c55-95f6-1003e36ce5e2"
+    ],
+    "stage": [
+      "latest-stage-1",
+      "latest-stage-2",
+      "latest-stage-3",
+      "latest-stage-4",
+      "latest-stage-5"
+    ],
+    "product": [
+      "23e2fcb4-72d8-467d-894a-05e430b187ef",
+      "766ecb15-474e-4c19-aef9-12766c006f61",
+      "371ecd7b-27cd-4130-8722-9389571aa876",
+      "e2acf72f-9e57-4f7a-a0ee-89aed453dd32",
+      "3139d32c-93cd-49bf-9c94-1cf0dc98d2c1",
+      "e27a984d-6548-41d0-bfcd-9eb1a7cad415",
+      "24933b83-7577-40a9-a491-f0b2ea1fca65",
+      "beb79919-3f22-4af8-a3be-d01d43cf2fde",
+      "28f49481-a0a0-4dc4-a720-9bdf1c11f735",
+      "2a25a888-0f02-4ad0-a706-7ef466aa9385",
+      "63f2ae24-fc3d-4348-808d-4127610461e3",
+      "5cec4eb5-edd9-4831-9ca3-5cfb04fc6d82",
+      "ce88cb2d-d4e8-4839-bc3e-058be0f3eab0",
+      "90b2b633-956b-4c0c-a849-9b926b5252e3",
+      "93829b43-922f-415a-a1e3-db63ef7ddc76",
+      "ab9099a4-35a2-40ae-9af3-05535ec42e08",
+      "aefcfad8-efc8-4849-b3aa-7efe4458a885",
+      "a28defe3-9bf0-4273-9247-6f57a5e5a5ab",
+      "17fc695a-07a0-4a6e-8822-e8f36c031199",
+      "81f76d1c-2dbc-4134-830f-f46e8026695f",
+      "a6f2f7b8-0cf3-4b58-9910-8be58ce21ea3",
+      "03c72ba8-d605-4770-8a63-f881ffd0f9d5",
+      "82010c62-f5f5-4b22-8e8f-a8e0284d82e5",
+      "839fbc50-1223-4513-9496-f63cdc1110c1",
+      "43b7a3a6-9a8d-4a03-980d-7b71d8f56413",
+      "759cde66-bacf-43d0-8b1f-9163ce9ff57f",
+      "ec1b8ca1-f91e-4d4c-9ff4-9b7889463e85",
+      "f10c718b-1eb0-438a-a75d-d5af3c365296",
+      "bd9c66b3-ad3c-4d6d-9a3d-1fa7bc8960a9",
+      "885f6e66-c2b6-42c5-ba5d-310011b7e948",
+      "a8e56e0c-20de-435d-a031-d750c40db9b4",
+      "2a45c2ab-8cbf-4db0-b264-accc79ac1b1e",
+      "1064005c-3985-43cf-bf76-be1d1efa2197",
+      "8dcdcd03-969b-4662-8562-8059568cc69b",
+      "01d74256-3860-4ab6-96a4-02f23ae8cc93",
+      "0f1259e0-a18f-46b6-b535-106e122c9a56",
+      "14296c07-f26b-4776-913e-4de2e0c53cb8",
+      "fc377a4c-4a15-444d-85e7-ce8a3a578a8e",
+      "ddd1dfb2-3b98-4ef8-9af6-1a26146d3f31",
+      "b253d218-6c4a-47ea-8906-17f2747b6dba",
+      "c88a618e-fed4-457d-bb02-6576f512c4c3",
+      "7c967f79-b7e9-4aca-a970-65e18e46d534",
+      "956269f0-e5d7-4875-adad-d6c795a76d79",
+      "a748dbcf-ac61-4e63-8dde-29a6baa4b71a",
+      "0f844fef-1931-49ee-a56c-0941fbf24050",
+      "ccf3a171-56dc-4907-ba6c-34ab6712303a",
+      "bc594585-9445-48c0-8ef8-c2d6f7fd5646",
+      "504867ba-bf7b-439b-8f9a-ea4b8acd4e10",
+      "b09b2a5c-badc-432a-8159-0f538a0f4efb",
+      "66245bfa-4fcc-439a-b683-d2e6337ea2df",
+      "5f987c71-a65e-488e-abf3-ad39fec21bbe",
+      "81f631d4-a392-41a7-9777-a4774c66e0a8",
+      "451b4cf3-6123-4df7-b656-af7229d4beef",
+      "c0398710-8976-4334-a281-7efdae849217",
+      "5715bd6f-a416-4293-84c2-e2e3444ea7c8",
+      "287d06ca-6f4c-469a-8b22-d3081c8eaee9",
+      "f4188f3f-8a14-4e62-a95b-4715c333e861"
+    ]
+  },
+  "objective_value": 3.62
+}
