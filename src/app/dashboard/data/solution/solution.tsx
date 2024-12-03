@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 import { IconFileExport } from "@tabler/icons-react";
 import { MoreHorizontal } from "lucide-react";
+import Vis from "@/components/custom/vis";
 
 export default function Solution() {
   return (
@@ -38,7 +39,7 @@ export default function Solution() {
           <CardDescription>這裡呈現生產規劃的甘特圖</CardDescription>
         </CardHeader>
         <CardContent>
-          <p>Card Content</p>
+          <Vis filename="/asset/demo_1203/vis/gantt.html" />
         </CardContent>
         <CardFooter className="gap-4">
           <Button variant={"outline"}>
@@ -57,7 +58,7 @@ export default function Solution() {
           <CardDescription>這裡呈現生產規劃的日歷呈現法</CardDescription>
         </CardHeader>
         <CardContent>
-          <p>Card Content</p>
+          <Vis filename="/asset/demo_1203/vis/chalendar.html" />
         </CardContent>
         <CardFooter className="gap-4">
           <Button variant={"outline"}>
@@ -76,7 +77,7 @@ export default function Solution() {
           <CardDescription>這裡呈現生產規劃一整年每天的利用率</CardDescription>
         </CardHeader>
         <CardContent>
-          <p>Card Content</p>
+          <Vis filename="/asset/demo_1203/vis/factory_util.html" />
         </CardContent>
         <CardFooter className="gap-4">
           <Button variant={"outline"}>
@@ -97,7 +98,7 @@ export default function Solution() {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <p>Card Content</p>
+          <Vis filename="/asset/demo_1203/vis/stage_util.html" />
         </CardContent>
         <CardFooter className="gap-4">
           <Button variant={"outline"}>

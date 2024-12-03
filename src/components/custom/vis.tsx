@@ -1,32 +1,36 @@
 "use client"
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
-interface VisComponentProps {
+interface VisProps {
     // Define the expected props here
     filename: string;
 }
 
-function VisComponent(props: VisComponentProps) {
-    const [htmlContent, setHtmlContent] = useState('');
-
-    useEffect(() => {
-        async function fetchHtml() {
-            try {
-                const response = await fetch(props.filename);
-                const html = await response.text();
-                setHtmlContent(html);
-            } catch (error) {
-                console.error('Error fetching HTML file:', error);
-            }
+function Vis(props: VisProps) {
+    const [height, setHeight] = React.useState("0px");
+    const ref = useRef<HTMLIFrameElement>(null);
+    const onLoad = () => {
+        if (ref.current && ref.current.contentWindow) {
+            setHeight(ref.current.contentWindow.document.body.scrollHeight + 'px');
         }
-
-        fetchHtml();
+    };
+    useEffect(() => {
+        onLoad();
     }, []);
 
     return (
-        <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+        <iframe ref={ref}
+            onLoad={onLoad}
+            src={props.filename}
+            width="100%"
+            height={height}
+            style={{
+                maxWidth: 1280,
+                width: "100%",
+                overflow: "auto",
+            }} />
     );
 }
 
-export default VisComponent;
+export default Vis;
