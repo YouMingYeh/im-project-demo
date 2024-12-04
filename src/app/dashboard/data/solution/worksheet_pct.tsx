@@ -91,9 +91,9 @@ export default function WorksheetPct() {
                         {header.isPlaceholder
                           ? null
                           : flexRender(
-                              header.column.columnDef.header,
-                              header.getContext(),
-                            )}
+                            header.column.columnDef.header,
+                            header.getContext(),
+                          )}
                       </TableHead>
                     );
                   })}
@@ -108,7 +108,7 @@ export default function WorksheetPct() {
                     data-state={row.getIsSelected() && "selected"}
                   >
                     {row.getVisibleCells().map((cell) => (
-                      <TableCell key={cell.id}>
+                      <TableCell key={cell.id} className="text-xs">
                         {flexRender(
                           cell.column.columnDef.cell,
                           cell.getContext(),

@@ -1,6 +1,3 @@
-"use client"
-
-import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import {
     Dialog,
@@ -9,7 +6,7 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog"
-import { Maximize2, Minimize2 } from 'lucide-react'
+import { Maximize2 } from 'lucide-react'
 
 interface InspectDialogProps {
     title: string
@@ -17,25 +14,26 @@ interface InspectDialogProps {
 }
 
 export function InspectDialog({ title, children }: InspectDialogProps) {
-    const [isFullScreen, setIsFullScreen] = useState(true)
 
     return (
         <Dialog>
             <DialogTrigger asChild>
-                <Button variant="outline">全螢幕</Button>
+                <Button variant="outline">全螢幕
+                    <Maximize2 />
+                </Button>
             </DialogTrigger>
-            <DialogContent className={isFullScreen ? "w-screen h-screen m-0 max-w-full overflow-auto" : ""}>
+            <DialogContent className={"w-screen h-screen m-0 max-w-full overflow-auto"}>
                 <DialogHeader className="flex flex-row items-center justify-between">
                     <DialogTitle>{title}</DialogTitle>
-                    <Button
+                    {/* <Button
                         variant="ghost"
                         size="icon"
                         onClick={() => setIsFullScreen(!isFullScreen)}
                     >
                         {isFullScreen ? <Minimize2 /> : <Maximize2 />}
-                    </Button>
+                    </Button> */}
                 </DialogHeader>
-                <div className={isFullScreen ? "w-full h-full" : ""}>
+                <div className={"w-full h-full"}>
                     {children}
                 </div>
             </DialogContent>
