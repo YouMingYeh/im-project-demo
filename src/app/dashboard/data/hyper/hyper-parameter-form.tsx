@@ -42,9 +42,12 @@ export default function HyperParameterForm() {
     },
   });
 
-  function onSubmit(data: FormValues) {
+  async function onSubmit(data: FormValues) {
     console.log(data);
+
     // Here you would typically send the data to your backend
+    // await for 1000ms to simulate a network request
+    await new Promise((resolve) => setTimeout(resolve, 1000));
   }
 
   return (
@@ -78,12 +81,12 @@ export default function HyperParameterForm() {
               name="utilization"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>使用率</FormLabel>
+                  <FormLabel>產能利用率</FormLabel>
                   <FormControl>
                     <Input {...field} type="number" step="any" />
                   </FormControl>
                   <FormDescription>
-                    使用率可以調整工廠的生產效率
+                    可以調整工廠的產能利用率
                   </FormDescription>
                   <FormMessage />
                 </FormItem>
@@ -119,7 +122,7 @@ export default function HyperParameterForm() {
             />
           </CardContent>
         </Card>
-        <Button type="submit">儲存</Button>
+        <Button type="submit" loading={form.formState.isSubmitting}>儲存</Button>
       </form>
     </Form>
   );

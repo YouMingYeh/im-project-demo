@@ -59,9 +59,11 @@ export default function ConfigurationForm() {
     },
   });
 
-  function onSubmit(data: FormValues) {
+  async function onSubmit(data: FormValues) {
     console.log(data);
     // Here you would typically send the data to your backend
+    // await for 1000ms to simulate a network request
+    await new Promise((resolve) => setTimeout(resolve, 1000));
   }
 
   return (
@@ -148,7 +150,9 @@ export default function ConfigurationForm() {
           </Card>
         ))}
 
-        <Button type="submit">儲存</Button>
+        <Button type="submit" loading={form.formState.isSubmitting}>
+          儲存
+        </Button>
       </form>
     </Form>
   );

@@ -33,7 +33,7 @@ export default function Breadcrumbs() {
 }
 
 const pathnameTitle: { [key: string]: string } = {
-  dashboard: "儀表板",
+  dashboard: "國立臺灣大學資訊管理學系 2024 學士班資管專題",
   data: "資料",
   order: "製造需求單",
   stage: "工作站",
