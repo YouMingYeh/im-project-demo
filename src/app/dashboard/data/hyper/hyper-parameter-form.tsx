@@ -55,9 +55,9 @@ export default function HyperParameterForm() {
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
         <Card>
           <CardHeader>
-            <CardTitle>參數調整</CardTitle>
+            <CardTitle>參數設定</CardTitle>
             <CardDescription>
-              請輸入參數調整的數值，以進行不同的規劃。
+              請輸入參數設定的數值，以進行不同的規劃。
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
@@ -71,7 +71,7 @@ export default function HyperParameterForm() {
                     <Input {...field} disabled />
                   </FormControl>
                   <FormDescription>
-                    管理參數配置的版本，目前只支持最新版本
+                    管理參數設定的版本，目前只支持最新版本
                   </FormDescription>
                 </FormItem>
               )}

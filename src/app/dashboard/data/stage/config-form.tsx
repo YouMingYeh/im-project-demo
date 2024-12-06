@@ -79,7 +79,7 @@ export default function ConfigurationForm() {
                 <Input {...field} disabled />
               </FormControl>
               <FormDescription>
-                管理參數配置的版本，目前只支持最新版本
+                管理參數設定的版本，目前只支持最新版本
               </FormDescription>
             </FormItem>
           )}

@@ -62,7 +62,7 @@ export default function HyperParameterForm() {
           <CardHeader>
             <CardTitle>規劃</CardTitle>
             <CardDescription>
-              請選擇此次規畫的工作站配置、參數、以及製造需求單
+              請選擇此次規畫的工作站設定、參數、以及製造需求單
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
@@ -85,12 +85,12 @@ export default function HyperParameterForm() {
               name="stage_version"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>工作站配置版本</FormLabel>
+                  <FormLabel>工作站設定版本</FormLabel>
                   <FormControl>
                     <Input {...field} disabled />
                   </FormControl>
                   <FormDescription>
-                    管理工作站配置的版本，目前只支持最新版本
+                    管理工作站設定的版本，目前只支持最新版本
                   </FormDescription>
                   <FormMessage />
                 </FormItem>
@@ -106,7 +106,7 @@ export default function HyperParameterForm() {
                     <Input {...field} disabled />
                   </FormControl>
                   <FormDescription>
-                    管理參數配置的版本，目前只支持最新版本
+                    管理參數設定的版本，目前只支持最新版本
                   </FormDescription>
                   <FormMessage />
                 </FormItem>
