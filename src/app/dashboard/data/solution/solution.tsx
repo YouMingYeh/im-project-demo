@@ -63,8 +63,36 @@ function CardWrapper({ children, index }: { children: React.ReactNode; index: nu
   )
 }
 
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+
+const data = [
+  {
+    name: "資管專題 DEMO",
+  },
+
+  {
+    name: "2024-09-11 源鼎-插單 v1"
+  },
+  {
+    name: "2024-09-25 重新規劃 v1"
+  },
+  {
+    name: "2024-09-25 重新規劃 v2"
+  },
+  {
+    name: "2024-10-15 宸璽-南投華新段二次 v1"
+  }]
+
+
 export default function Solution() {
   const [mounted, setMounted] = useState(false)
+  const [selected, setSelected] = useState("")
 
   useEffect(() => {
     setMounted(true)
@@ -74,7 +102,22 @@ export default function Solution() {
 
   return (
     <div className="flex flex-col gap-4">
-      {cardData.map((card, index) => (
+      <Select value={selected} onValueChange={setSelected}>
+        <SelectTrigger className="">
+          <SelectValue placeholder="選擇結果..." />
+        </SelectTrigger>
+        <SelectContent>
+          {data.map((item) => (
+            <SelectItem key={item.name} value={item.name}>
+              <div className="flex flex-col">
+                <span className="font-bold">{item.name}</span>
+              </div>
+            </SelectItem>
+          ))}
+        </SelectContent>
+      </Select>
+
+      {selected && cardData.map((card, index) => (
         <Suspense key={card.title} fallback={<div>Loading...</div>}>
           <CardWrapper index={index}>
             <Card>

@@ -13,7 +13,7 @@ export default function Plan() {
     <div className="max-w-sm space-y-4">
       <Select>
         <SelectTrigger className="">
-          <SelectValue placeholder="選擇想要規劃的參數..." />
+          <SelectValue placeholder="選擇想要排程的規劃..." />
         </SelectTrigger>
         <SelectContent>
           {data.map((item) => (
@@ -34,6 +34,18 @@ const data = [
   {
     name: "資管專題 DEMO",
   },
+  {
+    name: "2024-09-11 源鼎-插單 v1"
+  },
+  {
+    name: "2024-09-25 重新規劃 v1"
+  },
+  {
+    name: "2024-09-25 重新規劃 v2"
+  },
+  {
+    name: "2024-10-15 宸璽-南投華新段二次 v1"
+  }
 ];
 
 import React, { useState } from "react";

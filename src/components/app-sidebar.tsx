@@ -46,11 +46,11 @@ const data = {
         },
 
         {
-          title: "參數調整",
+          title: "參數設定",
           url: "/dashboard/data/hyper",
         },
         {
-          title: "規劃",
+          title: "生成規劃實例",
           url: "/dashboard/data/plan",
         },
         {
@@ -60,15 +60,11 @@ const data = {
       ],
     },
     {
-      title: "模型",
+      title: "執行規劃",
       url: "/dashboard/model",
       icon: Bot,
       isActive: true,
       items: [
-        {
-          title: "MIP（最佳化）",
-          url: "/dashboard/model/mip",
-        },
         {
           title: "啟發式演算法",
           url: "/dashboard/model/heuristic",
